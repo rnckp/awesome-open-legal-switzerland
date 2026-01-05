@@ -92,6 +92,7 @@ All 26 cantons maintain official, freely accessible law collections:
 ## Legal Commentary & Secondary Sources
 
 - [Onlinekommentar.ch](https://onlinekommentar.ch/) - The first non-profit and Open Access commentary platform in Switzerland. [[API](https://onlinekommentar.ch/en/apis)]
+- [Repositorium.ch](https://www.repositorium.ch/) -  Specialist subject repository for Swiss law. Central, freely and openly accessible, Switzerland-wide and Switzerland-related, institution-independent and discipline-specific.
 - [Fragmeisterjuristen.ch](https://fragmeisterjuristen.ch/) - Open-access legal AI chatbot by University of St. Gallen (2024). Answers questions on Swiss law with citations to classical legal scholarship.
 - [sui-generis.ch](https://sui-generis.ch/) - Open-access law journal and non-profit publisher. Published Switzerland's first open-access law textbook "Introduction to Swiss Law" (2018).
 - [Center for Legal Data Science (UZH)](https://www.clds.uzh.ch/en/knowledge/databases.html) - Data-driven legal research and dataset links.
