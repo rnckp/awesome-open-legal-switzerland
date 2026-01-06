@@ -100,6 +100,7 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ## Miscellaneous
 
+- [Open Access content collection University of Basel](https://ius.unibas.ch/de/bibliothek/recherche/open-access/) - List of repositories, collections, e-journals and blogs with open access content.
 - [ejustice.ch](https://ejustice.ch) - Association connecting cantonal and federal legal authorities, practitioners, service providers, and stakeholders to promote digital innovation in Swiss justice administration.
 - [Open Legal Lab](https://ejustice.ch/open-legal-lab/) - Free two-day event bringing together legal, tech, design, and data experts to develop innovative solutions for Swiss justice.
 - [Awesome Legal Data](https://github.com/openlegaldata/awesome-legal-data) - Curated list of open legal data sources, tools, and resources worldwide.
