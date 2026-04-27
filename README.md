@@ -112,6 +112,7 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ### Swiss Case Law & Courts
 
+- [Entscheidsuche MCP server](https://mcp.entscheidsuche.ch/) - A basic mcp server to access entscheidsuche.ch, experimental, from Open Legal Lab 2026.
 - [jonashertner/caselaw-repo-1](https://github.com/jonashertner/caselaw-repo-1) - OpenCaseLaw Swiss case-law dataset and MCP server, with 965k+ court decisions, citation analysis, statute lookup, and legislation search.
 - [malkreide/swiss-courts-mcp](https://github.com/malkreide/swiss-courts-mcp) - MCP server for Swiss court decisions via entscheidsuche.ch, covering the Federal Supreme Court, federal courts, and all 26 cantonal courts.
 - [self-tech-labs/entscheidsuche-MCP-server](https://github.com/self-tech-labs/entscheidsuche-MCP-server) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
