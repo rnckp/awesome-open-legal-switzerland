@@ -117,6 +117,7 @@ All 26 cantons maintain official, freely accessible law collections:
 - [Swiss Federal Supreme Court Dataset (SCD)](https://zenodo.org/records/14867950) - Structured dataset of all Federal Supreme Court cases from 2007 to 2024 (127k+ cases). Updated quarterly. Released under CC-BY 4.0.
 - [FSCS Swiss Court Decisions Corpus](https://zenodo.org/records/5529712) - Multilingual text corpus of 85k Federal Supreme Court judgments (2000-2020) in DE/FR/IT for NLP research and legal judgment prediction. [[GitHub](https://github.com/JoelNiklworthy/Swiss-Judgment-Prediction)]
 - [Swiss Landmark Decisions Summarization (SLDS)](https://huggingface.co/datasets/ipst/slds) - Cross-lingual dataset with 20k Federal Supreme Court rulings paired with official headnote summaries in DE/FR/IT (60k data points). Released under CC-BY 4.0.
+- [Justement.ch](https://justement.ch/) - Commercial legal search engine aggregating Swiss court decisions. A free tier is available for Federal Supreme Court decisions; advanced features require a paid subscription.
 
 ## Administrative Decisions & Regulatory Practice
 
@@ -176,15 +177,15 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ### Core Swiss Law & Legislation
 
-- [Ansvar-Systems/switzerland-law-mcp](https://github.com/Ansvar-Systems/switzerland-law-mcp) - Swiss federal-law MCP server for Fedlex/SR, covering searchable provisions, citation validation, currency checks, and EU-law cross-references.
+- [Ansvar-Systems](https://github.com/Ansvar-Systems/) - Legal, compliance, and security sources for AI agents.
 - [malkreide/fedlex-mcp](https://github.com/malkreide/fedlex-mcp) - Fedlex MCP server for Swiss federal law; searches the Systematic Compilation, recent publications, upcoming legal changes, Federal Gazette, treaties, and law history.
 - [janmanuelwinkler/hf_lexfind_mcp](https://github.com/janmanuelwinkler/hf_lexfind_mcp) - Offline Swiss law search MCP server over 35,000+ federal and cantonal laws from a LexFind-derived Hugging Face dataset.
 
 ### Swiss Case Law & Courts
 
 - [jonashertner/caselaw-repo-1](https://github.com/jonashertner/caselaw-repo-1) - OpenCaseLaw Swiss case-law dataset and MCP server, with 965k+ court decisions, citation analysis, statute lookup, and legislation search.
+- [entscheidsuche-mcp](https://github.com/entscheidsuche/entscheidsuche-mcp) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
 - [malkreide/swiss-courts-mcp](https://github.com/malkreide/swiss-courts-mcp) - MCP server for Swiss court decisions via entscheidsuche.ch, covering the Federal Supreme Court, federal courts, and all 26 cantonal courts.
-- [self-tech-labs/entscheidsuche-MCP-server](https://github.com/self-tech-labs/entscheidsuche-MCP-server) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
 
 ### Swiss Legal Commentary & Doctrine
 
@@ -201,9 +202,6 @@ All 26 cantons maintain official, freely accessible law collections:
 - [malkreide/bakom-mcp](https://github.com/malkreide/bakom-mcp) - BAKOM telecommunications and media open-data MCP server, categorized as “Legal & Regulatory” in the Swiss Public Data MCP portfolio.
 - [malkreide/swiss-ip-mcp](https://github.com/malkreide/swiss-ip-mcp) - Swiss IP MCP server for IGE/IPI Swissreg data, including trademarks, patents, and supplementary protection certificates.
 - [malkreide/register-mcp](https://github.com/malkreide/register-mcp) - Read-only MCP server for the Swiss Federal Commercial Register/Zefix and Swiss Official Gazette of Commerce references.
-- [Ansvar-Systems/ch-land-woodland-mcp](https://github.com/Ansvar-Systems/ch-land-woodland-mcp) - Swiss land and woodland law/regulation MCP server covering land acquisition, forest protection, building zones, farmland protection, and agricultural lease rules.
-- [Ansvar-Systems/ch-food-safety-mcp](https://github.com/Ansvar-Systems/ch-food-safety-mcp) - Swiss food-safety law MCP server for Lebensmittelgesetz, HACCP, labelling, and Swissness origin-marking regulations.
-- [Ansvar-Systems/ch-farm-safety-mcp](https://github.com/Ansvar-Systems/ch-farm-safety-mcp) - Swiss farm workplace-safety MCP server covering BUL/SPAA, Suva, EKAS, machinery safety, chemical exposure, youth-work restrictions, and accident-reporting duties.
 - [malkreide/swiss-food-safety-mcp](https://github.com/malkreide/swiss-food-safety-mcp) - BLV/Federal Food Safety and Veterinary Office data MCP server; not purely legal, but useful for regulated food/veterinary compliance and links to food-law workflows.
 
 ### Fact-Checking / Legal-Reference Adjacent
@@ -214,5 +212,5 @@ All 26 cantons maintain official, freely accessible law collections:
 
 - [Open Access content collection University of Basel](https://ius.unibas.ch/de/bibliothek/recherche/open-access/) - List of repositories, collections, e-journals and blogs with open access content.
 - [ejustice.ch](https://ejustice.ch) - Association connecting cantonal and federal legal authorities, practitioners, service providers, and stakeholders to promote digital innovation in Swiss justice administration.
-- [Open Legal Lab](https://ejustice.ch/open-legal-lab/) - Free two-day event bringing together legal, tech, design, and data experts to develop innovative solutions for Swiss justice.
+- [Open Legal Lab](https://ejustice.ch/open-legal-lab/) - Free event bringing together legal, tech, design, and data experts to develop innovative solutions for Swiss justice.
 - [Awesome Legal Data](https://github.com/openlegaldata/awesome-legal-data) - Curated list of open legal data sources, tools, and resources worldwide.
