@@ -175,17 +175,17 @@ All 26 cantons maintain official, freely accessible law collections:
 > [!WARNING]
 > MCP servers can create security and privacy risks even when you do not use them with sensitive data. Depending on how they are built and configured, they may read data from your AI tool, workspace, or local machine, send data to third-party services, change files, run commands, or expose your device to additional attack surfaces. Even a server that runs only on your own computer can still pose a serious risk to that computer. Only use MCP servers that you understand and trust, and review their code, permissions, operator, and deployment setup before enabling them.
 
+### Swiss Case Law & Courts
+
+- [jonashertner/caselaw-repo-1](https://github.com/jonashertner/caselaw-repo-1) - OpenCaseLaw Swiss case-law dataset and MCP server, with 965k+ court decisions, citation analysis, statute lookup, and legislation search.
+- [Entscheidsuche MCP server](https://mcp.entscheidsuche.ch/) - A basic mcp server to access entscheidsuche.ch, experimental, from Open Legal Lab 2026.
+- [entscheidsuche-mcp](https://github.com/entscheidsuche/entscheidsuche-mcp) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
+- [malkreide/swiss-courts-mcp](https://github.com/malkreide/swiss-courts-mcp) - MCP server for Swiss court decisions via entscheidsuche.ch, covering the Federal Supreme Court, federal courts, and all 26 cantonal courts.
+
 ### Core Swiss Law & Legislation
 
 - [malkreide/fedlex-mcp](https://github.com/malkreide/fedlex-mcp) - Fedlex MCP server for Swiss federal law; searches the Systematic Compilation, recent publications, upcoming legal changes, Federal Gazette, treaties, and law history.
 - [JayTheSkier/fedlex-connector](https://github.com/JayTheSkier/fedlex-connector) - A connector that gives Claude direct access to the official text of Swiss federal legislation on Fedlex.
-
-### Swiss Case Law & Courts
-
-- [Entscheidsuche MCP server](https://mcp.entscheidsuche.ch/) - A basic mcp server to access entscheidsuche.ch, experimental, from Open Legal Lab 2026.
-- [jonashertner/caselaw-repo-1](https://github.com/jonashertner/caselaw-repo-1) - OpenCaseLaw Swiss case-law dataset and MCP server, with 965k+ court decisions, citation analysis, statute lookup, and legislation search.
-- [entscheidsuche-mcp](https://github.com/entscheidsuche/entscheidsuche-mcp) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
-- [malkreide/swiss-courts-mcp](https://github.com/malkreide/swiss-courts-mcp) - MCP server for Swiss court decisions via entscheidsuche.ch, covering the Federal Supreme Court, federal courts, and all 26 cantonal courts.
 
 ### Swiss Legal Commentary & Doctrine
 
