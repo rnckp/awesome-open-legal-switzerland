@@ -187,10 +187,6 @@ All 26 cantons maintain official, freely accessible law collections:
 - [malkreide/fedlex-mcp](https://github.com/malkreide/fedlex-mcp) - Fedlex MCP server for Swiss federal law; searches the Systematic Compilation, recent publications, upcoming legal changes, Federal Gazette, treaties, and law history.
 - [JayTheSkier/fedlex-connector](https://github.com/JayTheSkier/fedlex-connector) - A connector that gives Claude direct access to the official text of Swiss federal legislation on Fedlex.
 
-### Swiss Legal Commentary & Doctrine
-
-- [self-tech-labs/onlinekommentar-mcp](https://github.com/self-tech-labs/onlinekommentar-mcp) - MCP server for Swiss legal commentaries from onlinekommentar.ch, including search, retrieval, multilingual support, and act filtering.
-
 ### Swiss Legal-Agent Frameworks
 
 - [fedec65/bettercallclaude](https://github.com/fedec65/bettercallclaude) - Swiss legal-intelligence plugin that connects multiple MCP servers for Swiss court search, BGE search, citation verification, Fedlex SPARQL, Online Kommentar, CAS/TAS jurisprudence, and document intelligence.
