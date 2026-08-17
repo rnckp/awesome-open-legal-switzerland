@@ -178,7 +178,6 @@ All 26 cantons maintain official, freely accessible law collections:
 ### Core Swiss Law & Legislation
 
 - [malkreide/fedlex-mcp](https://github.com/malkreide/fedlex-mcp) - Fedlex MCP server for Swiss federal law; searches the Systematic Compilation, recent publications, upcoming legal changes, Federal Gazette, treaties, and law history.
-- [janmanuelwinkler/hf_lexfind_mcp](https://github.com/janmanuelwinkler/hf_lexfind_mcp) - Offline Swiss law search MCP server over 35,000+ federal and cantonal laws from a LexFind-derived Hugging Face dataset.
 - [JayTheSkier/fedlex-connector](https://github.com/JayTheSkier/fedlex-connector) - A connector that gives Claude direct access to the official text of Swiss federal legislation on Fedlex.
 
 ### Swiss Case Law & Courts
