@@ -200,10 +200,6 @@ All 26 cantons maintain official, freely accessible law collections:
 - [malkreide/register-mcp](https://github.com/malkreide/register-mcp) - Read-only MCP server for the Swiss Federal Commercial Register/Zefix and Swiss Official Gazette of Commerce references.
 - [malkreide/swiss-food-safety-mcp](https://github.com/malkreide/swiss-food-safety-mcp) - BLV/Federal Food Safety and Veterinary Office data MCP server; not purely legal, but useful for regulated food/veterinary compliance and links to food-law workflows.
 
-### Fact-Checking / Legal-Reference Adjacent
-
-- [swisstruthorg/swiss-truth-mcp](https://github.com/swisstruthorg/swiss-truth-mcp) - Swiss fact-checking MCP server that uses official sources and can cite Swiss legal mandates, such as KVG health-insurance obligations.
-
 ## Miscellaneous
 
 - [Open Access content collection University of Basel](https://ius.unibas.ch/de/bibliothek/recherche/open-access/) - List of repositories, collections, e-journals and blogs with open access content.
