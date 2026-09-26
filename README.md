@@ -45,6 +45,8 @@ limited free tier are out of scope.
 - [Political Rights: Historical Data](https://www.bk.admin.ch/bk/de/home/politische-rechte/gebrauch-der-volksrechte.html) - Official historical lists of federal votes, popular initiatives, optional and mandatory referendums, and procedural decisions.
 - [Political-Financing Disclosures](https://www.efk.admin.ch/en/news-and-deadlines/) - Official Federal Audit Office register and Excel exports for federal campaign, party, and donation disclosures.
 - [Lobbywatch](https://lobbywatch.ch/datenexport/) - Weekly data exports on parliamentary interests and access badges in CSV, JSON, SQL, GraphML, and other formats, plus REST, GraphQL, and SPARQL interfaces. Data is licensed under CC BY-SA 4.0.
+- [Année Politique Suisse](https://anneepolitique.swiss/de/) - Open-access documentation of Swiss politics since 1965, with a searchable political chronicle, legislative-process histories, and research datasets. Useful for tracing the political background of legislation and popular votes.
+- [Öffentlichkeitsgesetz.ch](https://www.oeffentlichkeitsgesetz.ch/deutsch/) - Free resources on access to official documents, including federal and cantonal freedom-of-information rules, practical guidance, and reporting on transparency cases.
 
 ## Federal Legislation & Official Publications
 
@@ -56,6 +58,7 @@ limited free tier are out of scope.
 ## Legal Data Infrastructure & Metadata
 
 - [Fedlex Linked Data](https://lindas.admin.ch/data-usage/fedlex/) - Persistent URIs for each act or article. SPARQL endpoint with a documented ontology (JOLux data model). Enables programmatic retrieval of law texts, metadata, versions, and relationships.
+- [Fedlex JOLux Documentation](https://github.com/swiss/fedlex-jolux) - Public documentation of the ontology behind Fedlex, developed by the Federal Chancellery and Bern University of Applied Sciences. A companion [SPARQL tutorial](https://github.com/swiss/fedlex-sparql) provides example queries for retrieving legal metadata.
 - [TERMDAT](https://www.termdat.ch/) - Federal Administration's multilingual terminology database for legal and administrative terms.
 - [International Treaties Database](https://www.fedlex.admin.ch/de/treaty) - Switzerland's binding international agreements.
 - [opendata.swiss Justice Catalogue](https://opendata.swiss/en/group/just) - Federal, cantonal, and municipal open datasets concerning justice, public safety, convictions, criminal procedure, and related government activity.
@@ -67,6 +70,7 @@ limited free tier are out of scope.
 - [UID Web Service](https://www.bk.admin.ch/de/uid-webservice) - Official SOAP/XML service for the Swiss enterprise identification register. Public company search and VAT-number validation require no registration.
 - [Swissreg](https://www.swissreg.ch/) - Official publication and search service for Swiss trademarks, patents, designs, supplementary protection certificates, and emblems. A documented [IPI Data Delivery API](https://www.swissreg.ch/public/apidocs/) is available with registration.
 - [SECO Sanctions Data](https://www.seco.admin.ch/en/searching-for-subjects-sanctions) - Searchable and machine-readable consolidated list of sanctioned individuals, companies, and organizations, with XML data, value lists, and an XSD specification.
+- [Public-Law Restrictions on Landownership (PLR/ÖREB/RDPPF Cadastre)](https://www.swisstopo.admin.ch/en/plr-cadastre) - Official public information on restrictions affecting individual parcels. The documented [extract web service](https://www.cadastre-manual.admin.ch/fr/service-web-rdppf-appel-extrait) connects to cantonal systems and supports PDF and XML extracts, with optional JSON support.
 
 ## Cantonal Legislation
 
@@ -113,11 +117,16 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ### Aggregated & Research Data
 
-- [Entscheidsuche.ch](https://entscheidsuche.ch/search?query=%2a) - Non-profit initiative aggregating all publicly available Swiss court decisions (federal and cantonal). [[GitHub](https://github.com/entscheidsuche)]
+- [Entscheidsuche.ch](https://entscheidsuche.ch/search?query=%2a) - Non-profit initiative aggregating publicly available Swiss court decisions (federal and cantonal), with [API documentation](https://entscheidsuche.ch/pdf/EntscheidsucheAPI.pdf) and a [document directory](https://entscheidsuche.ch/docs/) for programmatic access. [[GitHub](https://github.com/entscheidsuche)]
 - [Swiss Federal Supreme Court Dataset (SCD)](https://zenodo.org/records/14867950) - Structured dataset of all Federal Supreme Court cases from 2007 to 2024 (127k+ cases). Updated quarterly. Released under CC-BY 4.0.
 - [FSCS Swiss Court Decisions Corpus](https://zenodo.org/records/5529712) - Multilingual text corpus of 85k Federal Supreme Court judgments (2000-2020) in DE/FR/IT for NLP research and legal judgment prediction. [[GitHub](https://github.com/JoelNiklworthy/Swiss-Judgment-Prediction)]
 - [Swiss Landmark Decisions Summarization (SLDS)](https://huggingface.co/datasets/ipst/slds) - Cross-lingual dataset with 20k Federal Supreme Court rulings paired with official headnote summaries in DE/FR/IT (60k data points). Released under CC-BY 4.0.
 - [Justement.ch](https://justement.ch/) - Commercial legal search engine aggregating Swiss court decisions. A free tier is available for Federal Supreme Court decisions; advanced features require a paid subscription.
+
+### Specialist Case-Law Collections
+
+- [Equality Law](https://www.equality-law.ch/de/) - Free nationwide database of court and conciliation cases concerning the Gender Equality Act, with commentary and procedural resources in DE/FR/IT. Unifies the former regional equality-law databases.
+- [Federal Commission against Racism Case Database](https://www.ekr.admin.ch/dienstleistungen/d518.html) - Searchable, anonymized summaries of criminal decisions concerning the anti-discrimination provisions of the Criminal Code and Military Criminal Code. Summaries are available online and as PDFs; coverage is not exhaustive.
 
 ## Administrative Decisions & Regulatory Practice
 
@@ -128,6 +137,9 @@ All 26 cantons maintain official, freely accessible law collections:
 - [FDPIC Freedom of Information Recommendations](https://www.edoeb.admin.ch/en/recommendations-according-to-foia) - Recommendations issued after unsuccessful mediation under the Freedom of Information Act.
 - [ElCom Decisions](https://www.elcom.admin.ch/en/decisions-en) - Decisions of the independent electricity regulator concerning tariffs, grid access, security of supply, and international electricity trading.
 - [ComCom Decisions](https://www.comcom.admin.ch/de/entscheide) - Decisions of the Federal Communications Commission concerning telecommunications regulation and licensing.
+- [OFCOM/BAKOM Decision Database](https://www.bakom.admin.ch/de/entscheiddatenbank) - Selected leading decisions on broadcasting and telecommunications, including new legal questions and changes in regulatory practice.
+- [Federal Arbitration Commission for Copyright (ESchK/CAF)](https://www.eschk.admin.ch/de/beschluesse) - Published decisions on the collective management of copyright and related rights, organized by year back to 1991. Decisions appear in their original official language and may be anonymized or abridged.
+- [PostCom Decisions](https://www.postcom.admin.ch/de/verfuegungen) - Official PDF decisions on postal universal service, delivery, mailbox locations, sectoral working conditions, and cross-subsidization, with information on appeal status.
 
 ## Administrative Guidance & Soft Law
 
@@ -136,6 +148,11 @@ All 26 cantons maintain official, freely accessible law collections:
 - [SEM Directives and Circulars](https://www.sem.admin.ch/sem/de/home/publiservice/weisungen-kreisschreiben.html) - Administrative guidance on migration, free movement, asylum, integration, citizenship, data protection, and visas.
 - [SEM Asylum and Return Manual](https://www.sem.admin.ch/sem/de/home/asyl/asylverfahren/nationale-verfahren/handbuch-asyl-rueckkehr.html) - Published internal working manual covering asylum procedure, evidence, refugee status, removal, and legal remedies.
 - [Swissmedic Journal](https://www.swissmedic.ch/swissmedic/en/home/about-us/publications/swissmedic-journal.html) - Official monthly publication on therapeutic-product regulation, requirements, risks, and authorization decisions.
+- [FINMA Circulars](https://www.finma.ch/en/documentation/circulars/) - Freely available explanations of FINMA's application of financial-market legislation, filterable by supervised institution type, with an [archive of earlier circulars](https://www.finma.ch/en/documentation/archiv/rundschreiben/).
+- [SECO Labour Act Guidance](https://www.seco.admin.ch/de/wegleitungen) - Official commentary on the Labour Act and its ordinances, with practical examples, complete PDF manuals, individual article PDFs, and change lists.
+- [Federal Legislative Drafting Guide](https://www.bk.admin.ch/dam/de/sd-web/mlOCkXFnLE6C/Gesetzgebungsleitfaden-dt.pdf) - Federal Office of Justice handbook on preparing federal legislation, including legislative procedure, legal requirements, and drafting methodology. Freely downloadable PDF, fifth edition (2025).
+- [Federal Legislative Drafting Directives (GTR)](https://www.bk.admin.ch/de/gesetzestechnik) - Federal Chancellery guidance on the structure, wording, amendment, and citation of federal enactments, with downloadable directives.
+- [TRIAS Public Procurement Guide](https://www.trias.swiss/) - Joint federal, cantonal, and municipal guidance on procurement procedures, with legal references, checklists, templates, and factsheets in DE/FR/IT. Free to consult; the site requires acceptance of its terms and confirmation of location in Switzerland or Liechtenstein.
 
 ## International Jurisprudence Relevant to Switzerland
 
@@ -154,6 +171,11 @@ All 26 cantons maintain official, freely accessible law collections:
 - [Center for Legal Data Science (UZH)](https://www.clds.uzh.ch/en/knowledge/databases.html) - Data-driven legal research and dataset links.
 - [LawInside](https://lawinside.ch/a-propos/) - Free French-language summaries and analyses of recent Swiss case law, primarily leading Federal Supreme Court decisions.
 - [juscovery](https://lawlibraries.ch/?page_id=2742) - Nationwide discovery catalogue for more than one million records of Swiss legal literature, combining the swisscovery, Renouvaud, and Helveticat catalogues.
+- [LeGes](https://leges.weblaw.ch/die-zeitschrift.html) - Open-access journal on legislation and evaluation of government action, covering legal drafting, legislative practice, and related research. Current issues and the complete archive are free to read.
+- [cognitio](https://www.cognitio-zeitschrift.ch/) - Open-access journal for students and early-career legal researchers, covering public, private, and criminal law, legal theory, and interdisciplinary work.
+- [crimen.ch](https://www.crimen.ch/a-propos/) - Free French-language summaries and commentary on Swiss substantive criminal law, criminal procedure, and international mutual assistance in criminal matters.
+- [swissprivacy.law](https://swissprivacy.law/a-propos/) - Free French-language analysis of data-protection and transparency law, covering judgments, regulatory decisions, legislation, and scholarship.
+- [legalis science](https://www.legalis-science.ch/de/) - Open-access collection of Swiss legal dissertations, monographs, and edited volumes from Helbing Lichtenhahn and Dike, with links to publisher-hosted PDFs. Reuse terms depend on the individual publication.
 
 ## Legal History & Archives
 
@@ -162,6 +184,7 @@ All 26 cantons maintain official, freely accessible law collections:
 - [Collection of Swiss Law Sources (SSRQ/SDS/FDS)](https://ssrq-sds-fds.ch/digital/online/) - Historical legal sources through 1798, including TEI/XML editions, entity indexes, OCR volumes, and underlying datasets on Zenodo.
 - [E-Periodica](https://www.e-periodica.ch/digbib/about?lang=en) - ETH Library platform for freely searchable Swiss journals, including historical legal scholarship, with PDF, image, and full-text downloads.
 - [e-rara](https://www.e-rara.ch/doc/home?lang=en) - Digitized public-domain books and prints from Swiss libraries, including historical legal works.
+- [Diplomatic Documents of Switzerland (Dodis)](https://www.dodis.ch/de/open-science) - Open-access historical sources on Swiss foreign relations, useful for researching treaty negotiations and international legal history. Document metadata is available as open data; content is CC BY 4.0 unless otherwise indicated.
 
 ## Open Research Data & Tools
 
@@ -169,6 +192,11 @@ All 26 cantons maintain official, freely accessible law collections:
 - [OpenCaseLaw Swiss Case Law Dataset](https://huggingface.co/datasets/voilaj/swiss-caselaw) - Bulk dataset of 965k+ federal, cantonal, and regulatory decisions with structured metadata and citation links. Released under CC0 and updated regularly.
 - [Swiss Legal RAG Bench](https://huggingface.co/datasets/voilaj/swiss-legal-rag-bench) - CC0 benchmark for evaluating grounded retrieval-augmented generation over Swiss federal law.
 - [Alma Lex](https://almalex.ch/en/) - Free, MIT-licensed Swiss legal AI demo grounded in federal legislation and Federal Supreme Court decisions. Its public-chat model is not suitable for sensitive information. [[GitHub](https://github.com/gartmeier/almalex)]
+- [SwiLTra-Bench](https://huggingface.co/collections/joelniklaus/swiltra-bench) - Downloadable parallel corpora for Swiss legal translation, covering federal legislation, decision headnotes, and Federal Supreme Court press releases. Includes DE/FR/IT and, for legislation, Romansh and English. Dataset cards leave licensing unspecified. [[Preparation code](https://github.com/JoelNiklaus/SwissLegalTranslations)]
+- [LEXam](https://huggingface.co/datasets/LEXam-Benchmark/LEXam) - Legal-reasoning benchmark built from university law exams, with German and English questions, reference answers, and jurisdiction labels for selecting Swiss-law material. Includes open-ended and multiple-choice tasks; available as Parquet under CC BY 4.0. [[Project](https://lexam-benchmark.github.io/)]
+- [SwissLegalEvals](https://github.com/JoelNiklaus/SwissLegalEvals) - MIT-licensed evaluation framework for Swiss legal summarization, translation, and exam reasoning using SLDS, SwiLTra-Bench, and LEXam. Supports local models and API providers; hosted model usage may incur costs.
+- [swissparl](https://github.com/zumbov2/swissparl) - MIT-licensed R package for the Swiss Parliament's OData web services and the OpenParlData REST API, with examples for analyzing votes, speeches, and parliamentary business.
+- [pyramid_oereb](https://github.com/openoereb/pyramid_oereb) - Open-source Python server implementation for the Swiss PLR cadastre, supporting programmatic access to restrictions on landownership and cadastral extracts. Published under the BSD 2-Clause license on [PyPI](https://pypi.org/project/pyramid-oereb/).
 
 ## MCP Servers
 
