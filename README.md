@@ -117,6 +117,7 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ### Aggregated & Research Data
 
+- [OpenCaseLaw](https://opencaselaw.ch/) - Open, nightly refreshed directory and CC0 dataset of published Swiss court decisions from the federal courts and all 26 cantons (1875 onward), with a citation graph and REST API, MCP server, CLI, and Parquet bulk download.
 - [Entscheidsuche.ch](https://entscheidsuche.ch/search?query=%2a) - Non-profit initiative aggregating publicly available Swiss court decisions (federal and cantonal), with [API documentation](https://entscheidsuche.ch/pdf/EntscheidsucheAPI.pdf) and a [document directory](https://entscheidsuche.ch/docs/) for programmatic access. [[GitHub](https://github.com/entscheidsuche)]
 - [Swiss Federal Supreme Court Dataset (SCD)](https://zenodo.org/records/14867950) - Structured dataset of all Federal Supreme Court cases from 2007 to 2024 (127k+ cases). Updated quarterly. Released under CC-BY 4.0.
 - [FSCS Swiss Court Decisions Corpus](https://zenodo.org/records/5529712) - Multilingual text corpus of 85k Federal Supreme Court judgments (2000-2020) in DE/FR/IT for NLP research and legal judgment prediction. [[GitHub](https://github.com/JoelNiklworthy/Swiss-Judgment-Prediction)]
@@ -205,6 +206,7 @@ All 26 cantons maintain official, freely accessible law collections:
 
 ### Swiss Case Law & Courts
 
+- [OpenCaseLaw MCP server](https://opencaselaw.ch/#connect) - MCP server for searching published Swiss court decisions from the federal courts and all 26 cantons, reading decision reasoning, and following resolved citations to decisions and legislation. Powered by OpenCaseLaw's nightly refreshed CC0 corpus.
 - [jonashertner/caselaw-repo-1](https://github.com/jonashertner/caselaw-repo-1) - OpenCaseLaw Swiss case-law dataset and MCP server, with 965k+ court decisions, citation analysis, statute lookup, and legislation search.
 - [Entscheidsuche MCP server](https://mcp.entscheidsuche.ch/) - A basic mcp server to access entscheidsuche.ch, experimental, from Open Legal Lab 2026.
 - [entscheidsuche-mcp](https://github.com/entscheidsuche/entscheidsuche-mcp) - MCP server for searching and retrieving Swiss federal and cantonal court decisions through the Entscheidsuche API.
