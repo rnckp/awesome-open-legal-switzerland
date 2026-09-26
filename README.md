@@ -15,7 +15,8 @@ Entries identify access methods and licences where known. An omitted licence mea
 
 Language lists describe available content, not necessarily translations of each document. Geographic coverage does not imply complete coverage of courts, dates, or decisions.
 
-## Contents
+<details>
+<summary>Contents</summary>
 
 - [Legislation & Legislative Process](#legislation--legislative-process)
   - [Federal Legislation & Official Publications](#federal-legislation--official-publications)
@@ -40,6 +41,8 @@ Language lists describe available content, not necessarily translations of each 
 - [Related Directories & Community](#related-directories--community)
 - [Contributing](#contributing)
 - [Licence](#licence)
+
+</details>
 
 ## Legislation & Legislative Process
 
