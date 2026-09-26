@@ -3,6 +3,4 @@ description: Curated sources, datasets, and tools for Swiss legal research and r
 markdown: kramdown
 kramdown:
   input: GFM
-  # Render Markdown links inside the README's collapsible contents.
-  parse_block_html: true
   hard_wrap: false

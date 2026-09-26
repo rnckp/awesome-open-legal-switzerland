@@ -53,11 +53,46 @@ jobs:
           source: ./_pages
           destination: ./_site
 
-      - name: Check homepage and licence
+      - name: Check homepage, contents links, and licence
         shell: bash
         run: |
           test -s _site/index.html
           test -s _site/LICENSE
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class ContentsCheck(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_details = False
+                  self.closed_by_default = True
+                  self.targets = set()
+                  self.contents_links = []
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if 'id' in attrs:
+                      self.targets.add(attrs['id'])
+                  if tag == 'details':
+                      self.in_details = True
+                      self.closed_by_default &= 'open' not in attrs
+                  if self.in_details and tag == 'a':
+                      href = attrs.get('href', '')
+                      if href.startswith('#'):
+                          self.contents_links.append(href[1:])
+
+              def handle_endtag(self, tag):
+                  if tag == 'details':
+                      self.in_details = False
+
+          check = ContentsCheck()
+          check.feed(Path('_site/index.html').read_text(encoding='utf-8'))
+          assert check.contents_links, 'Contents rendered as text instead of links'
+          assert check.closed_by_default, 'Contents should start collapsed'
+          missing = set(check.contents_links) - check.targets
+          assert not missing, f'Broken contents targets: {sorted(missing)}'
+          PY
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

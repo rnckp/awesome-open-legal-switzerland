@@ -17,7 +17,7 @@ Source collections and literature are free to consult unless an entry states an 
 
 Language lists describe available content, not necessarily translations of each document. Geographic coverage does not imply complete coverage of courts, dates, or decisions. An API link does not by itself establish anonymous access or unrestricted reuse; consult the linked documentation for credentials, limits, and terms.
 
-<details>
+<details markdown="block">
 <summary>Contents</summary>
 
 - [Legislation, Treaties & Official Publications](#legislation-treaties--official-publications)
