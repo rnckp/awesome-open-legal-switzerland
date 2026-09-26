@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Swiss Legal Resources"
+  short_description: "Refresh and audit the Swiss legal resource directory"
+  default_prompt: "Use $maintain-swiss-legal to refresh this repository: find valuable new sources, verify existing entries, and fix outdated information, duplicates, misplaced entries, and editorial issues. Apply local edits and summarize changes and unresolved checks."
