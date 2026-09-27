@@ -1,0 +1,31 @@
+
+[project]
+name = "awesome-open-legal-switzerland"
+version = "0.1.0"
+description = "Maintenance helpers for the awesome-open-legal-switzerland directory"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.16.9"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+count-sources = "awesome_open_legal_switzerland.count_sources:main"
+check-links = "awesome_open_legal_switzerland.link_checker:main"
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

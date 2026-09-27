@@ -1,9 +1,10 @@
 # Awesome Open Legal Data Switzerland
 
-[![GitHub Stars](https://img.shields.io/github/stars/rnckp/awesome-open-legal-switzerland.svg)](https://github.com/rnckp/awesome-open-legal-switzerland)
-[![GitHub Issues](https://img.shields.io/github/issues/rnckp/awesome-open-legal-switzerland.svg)](https://github.com/rnckp/awesome-open-legal-switzerland/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rnckp/awesome-open-legal-switzerland.svg)](https://github.com/rnckp/awesome-open-legal-switzerland/pulls)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Suggestions welcome](https://img.shields.io/badge/suggestions-welcome-brightgreen)](https://github.com/rnckp/awesome-open-legal-switzerland/issues/new)
+[![License: CC0](https://img.shields.io/badge/license-CC0-blue)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/rnckp/awesome-open-legal-switzerland.svg)](https://github.com/rnckp/awesome-open-legal-switzerland)
+[![Last commit](https://img.shields.io/github/last-commit/rnckp/awesome-open-legal-switzerland)](https://github.com/rnckp/awesome-open-legal-switzerland/commits/main/)
 
 Curated sources, datasets, and tools for Swiss legal research and reuse, including lawmaking, democratic participation, and political accountability. Registers and specialist tools must expose legal records, rights, obligations, or regulatory disclosures; general government statistics and sector data are outside the scope.
 
@@ -296,6 +297,8 @@ Suggest additions or corrections via an [issue](https://github.com/rnckp/awesome
 - Prefer one main entry per project. Link APIs, downloads, and code together unless they serve distinct tasks; cross-reference related entries.
 - Date release-specific claims; omit volatile record counts and unsupported completeness claims.
 - Place entries by the material or task they support, with official sources before independent interfaces and supporting tools.
+
+For maintenance scripts, development commands and the available agent skill, see the [helper documentation](https://github.com/rnckp/awesome-open-legal-switzerland/blob/main/src/README.md).
 
 ## Licence
 

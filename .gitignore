@@ -1,0 +1,15 @@
+# Python environments, packaging and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+
+# Generated maintenance reports
+/count_sources.md
+/link-check-report.md
+
+# Local files
+.DS_Store
