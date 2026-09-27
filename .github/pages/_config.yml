@@ -1,6 +1,0 @@
-title: Awesome Open Legal Data Switzerland
-description: Curated sources, datasets, and tools for Swiss legal research and reuse.
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
