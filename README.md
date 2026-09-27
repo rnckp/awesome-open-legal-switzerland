@@ -15,22 +15,41 @@ Know a useful resource? [Share a link](https://github.com/rnckp/awesome-open-leg
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
-<ul>
-  <li><a href="#legislation-treaties--official-publications">Legislation, Treaties &amp; Official Publications</a>: <a href="#federal-legislation--treaties">Federal Legislation &amp; Treaties</a>, <a href="#federal--cantonal-official-notices">Federal &amp; Cantonal Official Notices</a>, <a href="#cantonal--intercantonal-legislation">Cantonal &amp; Intercantonal Legislation</a></li>
-  <li><a href="#legislative-process-parliament--direct-democracy">Legislative Process, Parliament &amp; Direct Democracy</a>: <a href="#parliamentary-data">Parliamentary Data</a>, <a href="#direct-democracy--political-transparency">Direct Democracy &amp; Political Transparency</a></li>
-  <li><a href="#judicial-decisions">Judicial Decisions</a>: <a href="#federal-courts">Federal Courts</a>, <a href="#case-law-search">Case-Law Search</a>, <a href="#specialist-collections">Specialist Collections</a></li>
-  <li><a href="#administrative-decisions--regulatory-practice">Administrative Decisions &amp; Regulatory Practice</a></li>
-  <li><a href="#administrative-guidance--drafting-resources">Administrative Guidance &amp; Drafting Resources</a></li>
-  <li><a href="#public-registers--regulatory-disclosures">Public Registers &amp; Regulatory Disclosures</a></li>
-  <li><a href="#international-decisions--arbitration">International Decisions &amp; Arbitration</a></li>
-  <li><a href="#commentary-journals--legal-literature">Commentary, Journals &amp; Legal Literature</a>: <a href="#commentaries--case-analyses">Commentaries &amp; Case Analyses</a>, <a href="#journals">Journals</a>, <a href="#repositories--catalogues">Repositories &amp; Catalogues</a></li>
-  <li><a href="#legal-history--archives">Legal History &amp; Archives</a></li>
-  <li><a href="#research-datasets--benchmarks">Research Datasets &amp; Benchmarks</a></li>
-  <li><a href="#developer-tools--infrastructure">Developer Tools &amp; Infrastructure</a>: <a href="#apis-metadata--libraries">APIs, Metadata &amp; Libraries</a>, <a href="#ai-applications">AI Applications</a>, <a href="#mcp-servers--agent-integrations">MCP Servers &amp; Agent Integrations</a></li>
-  <li><a href="#community--related-directories">Community &amp; Related Directories</a>: <a href="#discovery-resources">Discovery Resources</a>, <a href="#community--events">Community &amp; Events</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#licence">Licence</a></li>
-</ul>
+- [Legislation, Treaties & Official Publications](#legislation-treaties--official-publications)
+  - [Federal Legislation & Treaties](#federal-legislation--treaties)
+  - [Federal & Cantonal Official Notices](#federal--cantonal-official-notices)
+  - [Cantonal & Intercantonal Legislation](#cantonal--intercantonal-legislation)
+    - [Cross-Jurisdiction Search](#cross-jurisdiction-search)
+    - [Official Cantonal Collections](#official-cantonal-collections)
+    - [Intercantonal Agreements](#intercantonal-agreements)
+    - [Alternative Interfaces](#alternative-interfaces)
+- [Legislative Process, Parliament & Direct Democracy](#legislative-process-parliament--direct-democracy)
+  - [Parliamentary Data](#parliamentary-data)
+  - [Direct Democracy & Political Transparency](#direct-democracy--political-transparency)
+- [Judicial Decisions](#judicial-decisions)
+  - [Federal Courts](#federal-courts)
+  - [Case-Law Search](#case-law-search)
+  - [Specialist Collections](#specialist-collections)
+- [Administrative Decisions & Regulatory Practice](#administrative-decisions--regulatory-practice)
+- [Administrative Guidance & Drafting Resources](#administrative-guidance--drafting-resources)
+- [Public Registers & Regulatory Disclosures](#public-registers--regulatory-disclosures)
+- [International Decisions & Arbitration](#international-decisions--arbitration)
+- [Commentary, Journals & Legal Literature](#commentary-journals--legal-literature)
+  - [Commentaries & Case Analyses](#commentaries--case-analyses)
+  - [Journals](#journals)
+  - [Repositories & Catalogues](#repositories--catalogues)
+- [Legal History & Archives](#legal-history--archives)
+- [Research Datasets & Benchmarks](#research-datasets--benchmarks)
+- [Developer Tools & Infrastructure](#developer-tools--infrastructure)
+  - [APIs, Metadata & Libraries](#apis-metadata--libraries)
+  - [AI Applications](#ai-applications)
+  - [MCP Servers & Agent Integrations](#mcp-servers--agent-integrations)
+- [Community & Related Directories](#community--related-directories)
+  - [Discovery Resources](#discovery-resources)
+  - [Community & Events](#community--events)
+- [Contributing](#contributing)
+  - [Curation policy](#curation-policy)
+- [Licence](#licence)
 
 </details>
 
