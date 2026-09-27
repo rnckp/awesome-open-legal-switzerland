@@ -8,7 +8,7 @@
 
 Curated sources, datasets, and tools for Swiss legal research and reuse, including lawmaking, democratic participation, and political accountability.
 
-Source collections and literature are free to consult unless an entry states an access restriction. Free access does not necessarily permit reuse; check each resource’s licence and terms. See the [curation policy](#curation-policy) for scope and access details.
+Source collections and literature are free to consult unless stated otherwise. Check licences and terms before reuse; free access does not establish reuse rights. See the [curation policy](#curation-policy) for scope and access details.
 
 Know a useful resource? [Share a link](https://github.com/rnckp/awesome-open-legal-switzerland/issues/new)—suggestions and corrections are always welcome.
 
@@ -118,7 +118,7 @@ Free official law collections for all 26 cantons, ordered by canton code:
 
 ### Case-Law Search
 
-For cantonal decisions, this list uses independent aggregators as the entry point; official cantonal court portals are not individually listed. These services provide cross-court search; publication and collection coverage vary. Follow original-source links where available to consult the publishing court. For downloadable research corpora, see [research datasets](#research-datasets--benchmarks).
+Independent aggregators provide cross-court search for cantonal decisions; official cantonal court portals are not listed individually. Publication and collection coverage vary. Follow original-source links to the publishing court where available. For downloadable corpora, see [research datasets](#research-datasets--benchmarks).
 
 - [OpenCaseLaw](https://opencaselaw.ch/) - Independent search across published federal, cantonal, and regulatory decisions, with metadata and citation links. Provides a REST API, CLI, [Parquet dataset](https://huggingface.co/datasets/voilaj/swiss-caselaw), and [MCP access](#mcp-servers--agent-integrations). Swiss corpus published under CC0; third-party materials may have separate terms. [Source code](https://github.com/jonashertner/opencaselaw) (MIT).
 - [Entscheidsuche.ch](https://entscheidsuche.ch/search?query=%2a) - Non-profit search across published federal and cantonal decisions. Offers an [API](https://entscheidsuche.ch/pdf/EntscheidsucheAPI.pdf), [document downloads](https://entscheidsuche.ch/docs/), and [MCP access](#mcp-servers--agent-integrations). [Source code](https://github.com/entscheidsuche).
@@ -199,7 +199,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 
 ## Legal History & Archives
 
-The [Swiss Federal Archives AppLab](https://applab.bar.admin.ch/de/datenbanken-und-apis) is an umbrella catalogue for archival databases and APIs, including the historical legislation and consultation datasets below. Collections can overlap with current publication portals; their value here is historical coverage and downloadable archival material.
+The [Swiss Federal Archives AppLab](https://applab.bar.admin.ch/de/datenbanken-und-apis) catalogues archival databases and APIs, including the legislation and consultation datasets below. These offer historical coverage and downloads, with some overlap with current publication portals.
 
 - [Historical Federal Law (AS 1948-2018)](https://applab.bar.admin.ch/databases-and-apis/official-compilation-of-federal-legislation) - Swiss Federal Archives bulk download of Official Compilation texts from 1948 to 2018 as XML, with classification tables in German, French, and Italian.
 - [Consultation Procedures Dataset (1960-1991)](https://applab.bar.admin.ch/de/datenbanken-und-apis/vernehmlassungen) - Metadata on federal consultation procedures (Vernehmlassungen) from 1960 to 1991.
@@ -211,7 +211,7 @@ The [Swiss Federal Archives AppLab](https://applab.bar.admin.ch/de/datenbanken-u
 
 ## Research Datasets & Benchmarks
 
-Derived corpora and benchmarks support empirical research and software evaluation. Date ranges describe the linked release or corpus; benchmark subsets may omit documents or text sections. Check dataset cards for selection criteria, versions, and reuse terms.
+Corpora and benchmarks for empirical research and software evaluation. Dates refer to the linked release or corpus; benchmark subsets may omit documents or text sections. Check dataset cards for selection criteria, versions and reuse terms.
 
 - [Swiss Federal Supreme Court Dataset (SCD)](https://zenodo.org/records/14867950) - Federal Supreme Court case metadata for 2007–2024 in CSV, with judgment texts in a separate Parquet file. The linked release reports interrupted updates as of October 2025; see its status note before assuming current coverage.
 - [Swiss Judgment Prediction (FSCS Corpus)](https://zenodo.org/records/5529712) - Federal Supreme Court judgment texts from 2000–2020 in German, French, and Italian for natural-language processing and judgment prediction. [Experiment code](https://github.com/JoelNiklaus/SwissJudgementPrediction).
@@ -241,9 +241,9 @@ Source-specific APIs are linked alongside their datasets and registers.
 
 ### MCP Servers & Agent Integrations
 
-Model Context Protocol (MCP) lets compatible AI tools query external sources. These are third-party integrations, not official government services; their software licences do not determine the terms of upstream data or AI clients.
+Model Context Protocol (MCP) lets compatible AI tools query external sources. These third-party integrations are not official government services. Their software licences are separate from data and AI-client terms.
 
-> Review the operator, code, permissions, and data flows before enabling a server. Depending on configuration, local or remote integrations may transmit data, access files, or execute commands.
+> Before enabling a server, review its operator, code, permissions and data flows. Local and remote integrations may transmit data, access files or execute commands, depending on configuration.
 
 - [OpenCaseLaw MCP server](https://opencaselaw.ch/mcp) - Hosted interface to the [OpenCaseLaw corpus](#case-law-search), with decision retrieval, citation traversal, and legislation search. Free access without an API key; [server code](https://github.com/jonashertner/opencaselaw) is MIT-licensed.
 - [Entscheidsuche MCP server](https://mcp.entscheidsuche.ch/) - Hosted search and full-text retrieval for [Entscheidsuche](#case-law-search), without an API key. [Server code](https://github.com/entscheidsuche/entscheidsuche-mcp); package metadata declares MIT.
@@ -270,7 +270,7 @@ Model Context Protocol (MCP) lets compatible AI tools query external sources. Th
 
 ## Contributing
 
-Found a useful resource, a broken link or something that could be clearer? Suggestions, corrections and ideas are all welcome through [issues](https://github.com/rnckp/awesome-open-legal-switzerland/issues) and [pull requests](https://github.com/rnckp/awesome-open-legal-switzerland/pulls). A link and a few words are enough to get started. I look at every suggestion, and we can work out together whether and where it fits.
+Found a useful resource, a broken link or something unclear? [Issues](https://github.com/rnckp/awesome-open-legal-switzerland/issues) and [pull requests](https://github.com/rnckp/awesome-open-legal-switzerland/pulls) are welcome—a link and a few words are enough. I review every suggestion, and we can work out where it fits together.
 
 When reviewing a resource, I look for:
 
@@ -278,17 +278,17 @@ When reviewing a resource, I look for:
 - An identifiable publisher, useful content and coverage, and a direct resource link.
 - Clear access requirements and known reuse terms, distinguishing free access, open data and open-source software.
 
-The [curation policy](#curation-policy) below explains these criteria in more detail. You don't need to have every detail checked before making a suggestion. If you're unsure about the fit or reuse terms, share what you've found and we can take a look together.
+See the [curation policy](#curation-policy) for details. No need to check everything before suggesting a resource—if you’re unsure about fit or reuse terms, we can look together.
 
-If you'd like to edit the list directly, aim for `Resource name - contents and coverage.` in one or two sentences, with API, download and code links beside the source. Prefer one main entry with cross-references where useful, and date release-specific claims. Don't worry about getting the wording, placement or formatting perfect—I’m happy to help adjust contributions so they fit.
+To edit directly, use `Resource name - contents and coverage.` in one or two sentences, with API, download and code links beside the source. Prefer one main entry with cross-references, and date release-specific claims. I’m happy to help with wording, placement and formatting.
 
-For links that aren't working, a note about what happened is helpful, whether it's a missing page, an access block or a connection error.
+For broken links, please mention what happened: a missing page, an access block or a connection error.
 
-For maintenance scripts, development commands and the available agent skill, see the [helper documentation](https://github.com/rnckp/awesome-open-legal-switzerland/blob/main/src/README.md).
+For maintenance scripts, development commands and the agent skill, see the [helper documentation](https://github.com/rnckp/awesome-open-legal-switzerland/blob/main/src/README.md).
 
 ### Curation policy
 
-Resources must have a concrete Swiss legal use. Registers and specialist tools must expose legal records, rights, obligations or regulatory disclosures; general government statistics and sector data are outside the scope. Free trials, limited commercial free tiers and general-purpose tools without a concrete Swiss legal use are excluded.
+Resources must serve a concrete Swiss legal use. Registers and specialist tools must expose legal records, rights, obligations or regulatory disclosures. General government statistics, sector data, free trials, limited commercial free tiers and general-purpose tools without a Swiss legal use are excluded.
 
 Access and reuse are described separately:
 
@@ -296,11 +296,11 @@ Access and reuse are described separately:
 - **Open data:** reuse under an explicit open licence or public-domain dedication.
 - **Open source:** software under an open-source licence; data and hosted services may have separate terms.
 
-Entries identify access methods and licences where known. An omitted licence means reuse terms have not been established here. Directories are included for discovery; not every linked publication is freely available.
+Entries state known access methods and licences; an omitted licence means reuse terms are unverified here. Discovery directories may link to publications that are not freely available.
 
-Descriptions distinguish official publishers, independent aggregators and derived research datasets. Entries are grouped by the material or task they support, with official sources before independent interfaces and supporting tools. APIs, downloads and code stay with the main entry unless they serve distinct tasks. Avoid volatile record counts and unsupported completeness claims.
+Distinguish official publishers, independent aggregators and derived research datasets. Group entries by material or task, with official sources before independent interfaces and tools. Keep APIs, downloads and code with the main entry unless they serve distinct tasks. Avoid volatile counts and unsupported completeness claims.
 
-Language lists describe available content, not necessarily translations of each document. Geographic coverage does not imply complete coverage of courts, dates or decisions. An API link does not by itself establish anonymous access or unrestricted reuse; consult the linked documentation for credentials, limits and terms.
+Listed languages describe available content, not translations of every document. Geographic scope does not imply complete coverage of courts, dates or decisions. API links do not establish anonymous access or unrestricted reuse; check documentation for credentials, limits and terms.
 
 ## Licence
 
