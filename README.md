@@ -6,51 +6,31 @@
 [![GitHub Stars](https://img.shields.io/github/stars/rnckp/awesome-open-legal-switzerland.svg)](https://github.com/rnckp/awesome-open-legal-switzerland)
 [![Last commit](https://img.shields.io/github/last-commit/rnckp/awesome-open-legal-switzerland)](https://github.com/rnckp/awesome-open-legal-switzerland/commits/main/)
 
-Curated sources, datasets, and tools for Swiss legal research and reuse, including lawmaking, democratic participation, and political accountability. Registers and specialist tools must expose legal records, rights, obligations, or regulatory disclosures; general government statistics and sector data are outside the scope.
+Curated sources, datasets, and tools for Swiss legal research and reuse, including lawmaking, democratic participation, and political accountability.
 
-- **Free access:** read or search without payment; this does not establish reuse rights.
-- **Open data:** reuse under an explicit open licence or public-domain dedication.
-- **Open source:** software under an open-source licence; data and hosted services may have separate terms.
+Source collections and literature are free to consult unless an entry states an access restriction. Free access does not necessarily permit reuse; check each resource’s licence and terms. See the [curation policy](#curation-policy) for scope and access details.
 
-Entries identify access methods and licences where known. An omitted licence means reuse terms have not been established here. Free trials, limited commercial free tiers, and general-purpose tools without a concrete Swiss legal use are excluded. Directories are included for discovery; not every linked publication is freely available.
+Know a useful resource? [Share a link](https://github.com/rnckp/awesome-open-legal-switzerland/issues/new)—suggestions and corrections are always welcome.
 
-Source collections and literature are free to consult unless an entry states an access restriction. Descriptions distinguish official publishers, independent aggregators, and derived research datasets.
+<details>
+<summary><strong>Table of Contents</strong></summary>
 
-Language lists describe available content, not necessarily translations of each document. Geographic coverage does not imply complete coverage of courts, dates, or decisions. An API link does not by itself establish anonymous access or unrestricted reuse; consult the linked documentation for credentials, limits, and terms.
-
-<details markdown="block">
-<summary>Contents</summary>
-
-- [Legislation, Treaties & Official Publications](#legislation-treaties--official-publications)
-  - [Federal Legislation & Treaties](#federal-legislation--treaties)
-  - [Federal & Cantonal Official Notices](#federal--cantonal-official-notices)
-  - [Cantonal & Intercantonal Legislation](#cantonal--intercantonal-legislation)
-- [Legislative Process, Parliament & Direct Democracy](#legislative-process-parliament--direct-democracy)
-  - [Parliamentary Data](#parliamentary-data)
-  - [Direct Democracy & Political Transparency](#direct-democracy--political-transparency)
-- [Judicial Decisions](#judicial-decisions)
-  - [Federal Courts](#federal-courts)
-  - [Case-Law Search](#case-law-search)
-  - [Specialist Collections](#specialist-collections)
-- [Administrative Decisions & Regulatory Practice](#administrative-decisions--regulatory-practice)
-- [Administrative Guidance & Drafting Resources](#administrative-guidance--drafting-resources)
-- [Public Registers & Regulatory Disclosures](#public-registers--regulatory-disclosures)
-- [International Decisions & Arbitration](#international-decisions--arbitration)
-- [Commentary, Journals & Legal Literature](#commentary-journals--legal-literature)
-  - [Commentaries & Case Analyses](#commentaries--case-analyses)
-  - [Journals](#journals)
-  - [Repositories & Catalogues](#repositories--catalogues)
-- [Legal History & Archives](#legal-history--archives)
-- [Research Datasets & Benchmarks](#research-datasets--benchmarks)
-- [Developer Tools & Infrastructure](#developer-tools--infrastructure)
-  - [APIs, Metadata & Libraries](#apis-metadata--libraries)
-  - [AI Applications](#ai-applications)
-  - [MCP Servers & Agent Integrations](#mcp-servers--agent-integrations)
-- [Community & Related Directories](#community--related-directories)
-  - [Discovery Resources](#discovery-resources)
-  - [Community & Events](#community--events)
-- [Contributing](#contributing)
-- [Licence](#licence)
+<ul>
+  <li><a href="#legislation-treaties--official-publications">Legislation, Treaties &amp; Official Publications</a>: <a href="#federal-legislation--treaties">Federal Legislation &amp; Treaties</a>, <a href="#federal--cantonal-official-notices">Federal &amp; Cantonal Official Notices</a>, <a href="#cantonal--intercantonal-legislation">Cantonal &amp; Intercantonal Legislation</a></li>
+  <li><a href="#legislative-process-parliament--direct-democracy">Legislative Process, Parliament &amp; Direct Democracy</a>: <a href="#parliamentary-data">Parliamentary Data</a>, <a href="#direct-democracy--political-transparency">Direct Democracy &amp; Political Transparency</a></li>
+  <li><a href="#judicial-decisions">Judicial Decisions</a>: <a href="#federal-courts">Federal Courts</a>, <a href="#case-law-search">Case-Law Search</a>, <a href="#specialist-collections">Specialist Collections</a></li>
+  <li><a href="#administrative-decisions--regulatory-practice">Administrative Decisions &amp; Regulatory Practice</a></li>
+  <li><a href="#administrative-guidance--drafting-resources">Administrative Guidance &amp; Drafting Resources</a></li>
+  <li><a href="#public-registers--regulatory-disclosures">Public Registers &amp; Regulatory Disclosures</a></li>
+  <li><a href="#international-decisions--arbitration">International Decisions &amp; Arbitration</a></li>
+  <li><a href="#commentary-journals--legal-literature">Commentary, Journals &amp; Legal Literature</a>: <a href="#commentaries--case-analyses">Commentaries &amp; Case Analyses</a>, <a href="#journals">Journals</a>, <a href="#repositories--catalogues">Repositories &amp; Catalogues</a></li>
+  <li><a href="#legal-history--archives">Legal History &amp; Archives</a></li>
+  <li><a href="#research-datasets--benchmarks">Research Datasets &amp; Benchmarks</a></li>
+  <li><a href="#developer-tools--infrastructure">Developer Tools &amp; Infrastructure</a>: <a href="#apis-metadata--libraries">APIs, Metadata &amp; Libraries</a>, <a href="#ai-applications">AI Applications</a>, <a href="#mcp-servers--agent-integrations">MCP Servers &amp; Agent Integrations</a></li>
+  <li><a href="#community--related-directories">Community &amp; Related Directories</a>: <a href="#discovery-resources">Discovery Resources</a>, <a href="#community--events">Community &amp; Events</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#licence">Licence</a></li>
+</ul>
 
 </details>
 
@@ -290,15 +270,37 @@ Model Context Protocol (MCP) lets compatible AI tools query external sources. Th
 
 ## Contributing
 
-Suggest additions or corrections via an [issue](https://github.com/rnckp/awesome-open-legal-switzerland/issues) or pull request.
+Found a useful resource, a broken link or something that could be clearer? Suggestions, corrections and ideas are all welcome through [issues](https://github.com/rnckp/awesome-open-legal-switzerland/issues) and [pull requests](https://github.com/rnckp/awesome-open-legal-switzerland/pulls). A link and a few words are enough to get started. I look at every suggestion, and we can work out together whether and where it fits.
 
-- Explain the Swiss legal use, content, and coverage, with a direct resource link. Identify the original publisher, aggregator, or derived dataset.
-- State access requirements and known reuse terms. Distinguish free access, open data, and open-source code, including which material a licence covers.
-- Prefer one main entry per project. Link APIs, downloads, and code together unless they serve distinct tasks; cross-reference related entries.
-- Date release-specific claims; omit volatile record counts and unsupported completeness claims.
-- Place entries by the material or task they support, with official sources before independent interfaces and supporting tools.
+When reviewing a resource, I look for:
+
+- A concrete use for Swiss legal research, practice or reuse.
+- An identifiable publisher, useful content and coverage, and a direct resource link.
+- Clear access requirements and known reuse terms, distinguishing free access, open data and open-source software.
+
+The [curation policy](#curation-policy) below explains these criteria in more detail. You don't need to have every detail checked before making a suggestion. If you're unsure about the fit or reuse terms, share what you've found and we can take a look together.
+
+If you'd like to edit the list directly, aim for `Resource name - contents and coverage.` in one or two sentences, with API, download and code links beside the source. Prefer one main entry with cross-references where useful, and date release-specific claims. Don't worry about getting the wording, placement or formatting perfect—I’m happy to help adjust contributions so they fit.
+
+For links that aren't working, a note about what happened is helpful, whether it's a missing page, an access block or a connection error.
 
 For maintenance scripts, development commands and the available agent skill, see the [helper documentation](https://github.com/rnckp/awesome-open-legal-switzerland/blob/main/src/README.md).
+
+### Curation policy
+
+Resources must have a concrete Swiss legal use. Registers and specialist tools must expose legal records, rights, obligations or regulatory disclosures; general government statistics and sector data are outside the scope. Free trials, limited commercial free tiers and general-purpose tools without a concrete Swiss legal use are excluded.
+
+Access and reuse are described separately:
+
+- **Free access:** read or search without payment; this does not establish reuse rights.
+- **Open data:** reuse under an explicit open licence or public-domain dedication.
+- **Open source:** software under an open-source licence; data and hosted services may have separate terms.
+
+Entries identify access methods and licences where known. An omitted licence means reuse terms have not been established here. Directories are included for discovery; not every linked publication is freely available.
+
+Descriptions distinguish official publishers, independent aggregators and derived research datasets. Entries are grouped by the material or task they support, with official sources before independent interfaces and supporting tools. APIs, downloads and code stay with the main entry unless they serve distinct tasks. Avoid volatile record counts and unsupported completeness claims.
+
+Language lists describe available content, not necessarily translations of each document. Geographic coverage does not imply complete coverage of courts, dates or decisions. An API link does not by itself establish anonymous access or unrestricted reuse; consult the linked documentation for credentials, limits and terms.
 
 ## Licence
 
