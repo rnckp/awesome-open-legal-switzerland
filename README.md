@@ -58,6 +58,7 @@ Know a useful resource? [Share a link](https://github.com/rnckp/awesome-open-leg
 ### Federal Legislation & Treaties
 
 - [Fedlex](https://www.fedlex.admin.ch/) - Official federal-law portal: consolidated legislation (SR), enacted texts and amendments (AS), the [Federal Gazette (BBl)](https://www.fedlex.admin.ch/de/fga) with drafts and explanatory dispatches, [international treaties](https://www.fedlex.admin.ch/de/treaty), and consultations. Federal legislation is available in German, French, and Italian; see [developer access](#apis-metadata--libraries).
+- [Generally Binding Collective Labour Agreements (SECO)](https://www.seco.admin.ch/de/gesamtarbeitsvertraege) - Official collection of federal and cantonal decisions extending collective labour agreements to non-members of the contracting associations. Includes extension and amendment texts, validity dates, and territorial scope.
 
 ### Federal & Cantonal Official Notices
 
@@ -112,7 +113,7 @@ Free official law collections for all 26 cantons, ordered by canton code:
 
 ### Parliamentary Data
 
-- [Swiss Parliament](https://www.parlament.ch/de/suche) - Official search for parliamentary business, members, and votes, with a [JSON/XML web service](https://ws-old.parlament.ch/).
+- [Swiss Parliament](https://www.parlament.ch/de/suche) - Official search for parliamentary business, members, and votes. The new [Open Data Webservice](https://ws.parl.ch/) requires registration and an API key. The [transition notice and terms](https://www.parlament.ch/de/%C3%BCber-das-parlament/fakten-und-zahlen/open-data-web-services) announce retirement of the legacy JSON/XML service by the end of 2027 and the OData service by the end of 2028.
 - [OpenParlData.ch](https://openparldata.ch/) - Independent, harmonized [API](https://api.openparldata.ch/documentation) for political actors, parliamentary business, and votes at federal, cantonal, and municipal levels. Coverage varies by parliament.
 - [Official Bulletins](https://www.parlament.ch/de/ratsbetrieb/amtliches-bulletin) - Full transcripts of Federal Assembly debates from 1891 onward.
 
@@ -134,6 +135,7 @@ Free official law collections for all 26 cantons, ordered by canton code:
 - [Federal Administrative Court (BVGer)](https://bvger.weblaw.ch/dashboard) - Official search for published Federal Administrative Court decisions, hosted by Weblaw.
 - [Federal Criminal Court (BStGer)](https://bstger.weblaw.ch/) - Official search for published Federal Criminal Court decisions, hosted by Weblaw; selected decisions form the TPF report series.
 - [Federal Patent Court](https://www.bundespatentgericht.ch/rechtsprechung/aktuelle-entscheide) - Official collection of patent-dispute judgments, with an archive from 2012 onward.
+- [Military Court of Cassation](https://www.oa.admin.ch/de/urteile-militarkassationsgericht) - Official collection of published military criminal-law judgments (MKGE), with individual decisions, collected volumes, headnotes, and subject and statutory indexes in PDF. Links to digitized earlier volumes in the Alexandria library catalogue.
 
 ### Case-Law Search
 
@@ -150,10 +152,13 @@ Independent aggregators provide cross-court search for cantonal decisions; offic
 
 ## Administrative Decisions & Regulatory Practice
 
-Official collections of decisions, reports, and recommendations.
+Decisions, reports, and recommendations from public authorities and regulatory bodies.
 
 - [Federal Administrative Practice (VPB/JAAC/GAAC)](https://www.bar.admin.ch/de/amtsdruckschriften-weitere-digitalisierte-unterlagen) - Decisions, legal opinions, leading Federal Council and administration decisions, and reports concerning federal administrative law.
+- [Federal Office of Justice Reports and Legal Opinions](https://www.bj.admin.ch/de/berichte-und-gutachten) - Official reports, legal opinions, and analyses on constitutional and administrative law, federal competences, civil law, and legislative reform. Documents are freely downloadable in their original publication language.
+- [Swiss Practice in Public International Law (FDFA)](https://www.eda.admin.ch/fr/droit-international-public) - Official PDF compilation of Swiss practice in public international law for 2012 to 2024, linked under Documents. Useful for researching Swiss legal positions and the application of international law.
 - [FINMA Enforcement Reporting](https://www.finma.ch/en/documentation/enforcement-reporting/) - Selected rulings, searchable anonymized enforcement case reports, related court decisions, and enforcement statistics.
+- [Swiss Takeover Board (UEK)](https://www.takeover.ch/transactions/search) - Official search for takeover decisions and transaction documents, including offer prospectuses and fairness opinions. Search decisions by full text, subject, date, or decision number.
 - [Competition Commission Decisions](https://www.weko.admin.ch/en/decisions-2) - COMCO/WEKO competition-law decisions, investigation reports, and merger opinions.
 - [FDPIC Findings and Rulings](https://www.edoeb.admin.ch/en/rulings) - Published findings and administrative rulings of general interest under the Federal Act on Data Protection.
 - [FDPIC Freedom of Information Recommendations](https://www.edoeb.admin.ch/en/recommendations-according-to-foia) - Recommendations issued after unsuccessful mediation under the Freedom of Information Act.
@@ -163,12 +168,17 @@ Official collections of decisions, reports, and recommendations.
 - [Independent Complaints Authority for Radio and Television (UBI)](https://www.ubi.admin.ch/de/entscheide/entscheide-suchen-sie-mit-suchkriterien) - Official database of decisions on complaints about radio, television, and online editorial content. Search by decision number, language, broadcaster, or medium, with full-text search in decision PDFs.
 - [Federal Arbitration Commission for Copyright (ESchK/CAF)](https://www.eschk.admin.ch/de/beschluesse) - Published decisions on the collective management of copyright and related rights, organized by year back to 1991. Decisions appear in their original official language and may be anonymized or abridged.
 - [PostCom Decisions](https://www.postcom.admin.ch/de/verfuegungen) - Official PDF decisions on postal universal service, delivery, mailbox locations, sectoral working conditions, and cross-subsidization, with information on appeal status.
+- [RailCom Decisions](https://www.railcom.admin.ch/de/entscheide) - Official rulings on complaints and investigations concerning non-discriminatory access to railway infrastructure and related services. Includes explanatory case summaries and downloadable decisions.
+- [IPI Trademark Examination and Opposition Database](https://ph.ige.ch/) - Official examination guidance, selected trademark-registration decisions, protected geographical indications, and substantive trademark opposition decisions from 2008 onward. Search by sign, legal issue, class, or decision date.
+- [SIX Exchange Regulation Sanctions](https://www.ser-ag.com/en/resources/sanctions.html) - Published sanction decisions and notices concerning breaches of Swiss exchange rules, with an archive for sanctions before 2016. Exchange self-regulatory practice, published in named or anonymized form.
 
 ## Administrative Guidance & Drafting Resources
 
 Official guidance on applying or drafting legislation, distinct from the legislation itself.
 
 - [Federal Tax Administration Publications](https://www.estv.admin.ch/de/publikationen-direkte-bundessteuer) - Circulars, notices, factsheets, rates, and administrative practice concerning direct federal tax.
+- [VAT Practice Publications (ESTV)](https://www.estv.admin.ch/de/mwst-praxispublikationen) - Official web-based guidance on Swiss VAT, including general VAT information and sector-specific practice. Links to the current practice application and the archive of practice applicable through 2009.
+- [Swiss Tax Information Dossier (ESTV)](https://www.estv.admin.ch/de/steuerinformationen) - Free PDF explanations of Swiss taxes, tax procedure, criminal tax law, and federal and cantonal rules. The publisher permits use of extracts or complete texts with attribution.
 - [Federal Social Insurance Office Execution Portal](https://sozialversicherungen.admin.ch/) - Current and historical directives, circulars, notices, and selected social-insurance case law.
 - [SEM Directives and Circulars](https://www.sem.admin.ch/sem/de/home/publiservice/weisungen-kreisschreiben.html) - Administrative guidance on migration, free movement, asylum, integration, citizenship, data protection, and visas.
 - [SEM Asylum and Return Manual](https://www.sem.admin.ch/sem/de/home/asyl/asylverfahren/nationale-verfahren/handbuch-asyl-rueckkehr.html) - Published internal working manual covering asylum procedure, evidence, refugee status, removal, and legal remedies.
@@ -188,6 +198,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 - [Swissreg](https://www.swissreg.ch/) - Official publication and search service for Swiss trademarks, patents, designs, supplementary protection certificates, and emblems. A documented [IPI Data Delivery API](https://www.swissreg.ch/public/apidocs/) is available with registration.
 - [SECO Sanctions Data](https://www.seco.admin.ch/en/searching-for-subjects-sanctions) - Searchable and machine-readable consolidated list of sanctioned individuals, companies, and organizations, with XML data, value lists, and an XSD specification.
 - [Public-Law Restrictions on Landownership (PLR/ÖREB/RDPPF Cadastre)](https://www.swisstopo.admin.ch/en/plr-cadastre) - Official public information on restrictions affecting individual parcels. The documented [extract web service](https://www.cadastre-manual.admin.ch/fr/service-web-rdppf-appel-extrait) connects to cantonal systems and supports PDF and XML extracts, with optional JSON support.
+- [Transport Undertakings and Concessions Register (BAV)](https://www.bav.admin.ch/de/verzeichnis-der-transportunternehmen) - Official register of transport undertakings holding or formerly holding federal concessions, permits, or approvals. Search rights and associated routes or installations, with CSV exports; historical coverage is incomplete.
 
 ## International Decisions & Arbitration
 
@@ -204,6 +215,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 - [LawInside](https://lawinside.ch/a-propos/) - Free French-language summaries and analyses of recent Swiss case law, primarily leading Federal Supreme Court decisions.
 - [crimen.ch](https://www.crimen.ch/a-propos/) - Free French-language summaries and commentary on Swiss substantive criminal law, criminal procedure, and international mutual assistance in criminal matters.
 - [swissprivacy.law](https://swissprivacy.law/a-propos/) - Free French-language analysis of data-protection and transparency law, covering judgments, regulatory decisions, legislation, and scholarship.
+- [University of Neuchâtel Case-Law Portals](https://droitne.ch/droitne/newsletters) - Free French-language case summaries, analyses, and newsletter archives covering tenancy, employment, family law, property and construction, liability, and insurance. Links to specialist portals including [bail.ch](https://bail.ch/), [droitdutravail.ch](https://droitdutravail.ch/), and [droitdesfamilles.ch](https://droitdesfamilles.ch/).
 
 ### Journals
 
@@ -211,6 +223,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 - [ex/ante](https://www.ex-ante.ch/) - Open-access journal publishing articles, essays, and case comments by early-career legal scholars.
 - [LeGes](https://leges.weblaw.ch/die-zeitschrift.html) - Open-access journal on legislation, legal drafting, and evaluation of government action; current issues and archive are free to read.
 - [cognitio](https://www.cognitio-zeitschrift.ch/) - Open-access journal for students and early-career researchers, covering Swiss law, legal theory, and interdisciplinary work.
+- [Medialex](https://medialex.ch/) - Open-access Swiss journal on media and communications law, with articles, case comments, legislative developments, and archives. Its [access statement](https://medialex.ch/ueber-uns/open-access-statement/) permits reading, downloading, copying, and distributing full texts without prior permission.
 
 ### Repositories & Catalogues
 
@@ -226,6 +239,7 @@ The [Swiss Federal Archives AppLab](https://applab.bar.admin.ch/de/datenbanken-u
 - [Consultation Procedures Dataset (1960-1991)](https://applab.bar.admin.ch/de/datenbanken-und-apis/vernehmlassungen) - Metadata on federal consultation procedures (Vernehmlassungen) from 1960 to 1991.
 - [Digitized Federal Publications](https://opendata.swiss/de/dataset/ads) - Open dataset covering parliamentary records, the Federal Gazette, federal law, Federal Council records, administrative practice, and other historical official publications.
 - [Collection of Swiss Law Sources (SSRQ/SDS/FDS)](https://ssrq-sds-fds.ch/digital/online/) - Historical legal sources through 1798, including TEI/XML editions, entity indexes, OCR volumes, and underlying datasets on Zenodo.
+- [iurisprudentia](https://iurisprudentia.online/de/about) - University of Zurich platform for digitized historical legislation, case law, and legal scholarship, initially focused on Swiss, German, and Austrian law. Offers full-text search and automated transcriptions; the publisher describes the available editions as incomplete.
 - [E-Periodica](https://www.e-periodica.ch/digbib/about?lang=en) - ETH Library platform for historical Swiss journals. Useful for tracing earlier legal scholarship and case commentary; offers PDF, image, and full-text downloads. Reuse terms depend on the publication.
 - [e-rara](https://www.e-rara.ch/doc/home?lang=en) - Digitized books and prints from Swiss libraries, useful for historical legal treatises and older printed law collections. Check the item’s rights statement for reuse terms.
 - [Diplomatic Documents of Switzerland (Dodis)](https://www.dodis.ch/de/open-science) - Open-access historical sources on Swiss foreign relations, useful for researching treaty negotiations and international legal history. Document metadata is available as open data; content is CC BY 4.0 unless otherwise indicated.
@@ -251,7 +265,7 @@ For a broader bulk decision corpus, see the Parquet download under [OpenCaseLaw]
 Source-specific APIs are linked alongside their datasets and registers.
 
 - [Fedlex Linked Data](https://lindas.admin.ch/data-usage/fedlex/) - Programmatic access to federal-law metadata, versions, and document links via SPARQL, a query language for linked data. Includes the [JOLux data model](https://github.com/swiss/fedlex-jolux) and a [query tutorial](https://github.com/swiss/fedlex-sparql).
-- [swissparl](https://github.com/zumbov2/swissparl) - R client for Parliament's OData services and OpenParlData's REST API, with examples for votes, speeches, and parliamentary business. MIT.
+- [swissparl](https://github.com/zumbov2/swissparl) - R client for Parliament's legacy OData service and OpenParlData's REST API, with examples for votes, speeches, and parliamentary business. MIT.
 - [pyramid_oereb](https://github.com/openoereb/pyramid_oereb) - Python server implementation for the PLR cadastre and cadastral extracts. BSD 2-Clause; available on [PyPI](https://pypi.org/project/pyramid-oereb/).
 - [SwissLegalEvals](https://github.com/JoelNiklaus/SwissLegalEvals) - MIT-licensed evaluation framework for Swiss legal summarization, translation, and exam reasoning using SLDS, SwiLTra-Bench, and LEXam. Supports local models and API providers; hosted model usage may incur costs.
 
