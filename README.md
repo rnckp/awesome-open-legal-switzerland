@@ -107,7 +107,7 @@ Free official law collections for all 26 cantons, ordered by canton code:
 
 #### Alternative Interfaces
 
-- [Zürich ZHLAW](https://www.zhlaw.ch/) - Independent, accessible presentation of Zurich's cantonal legislation; complements the official collection.
+- [odat.ch (Zürich)](https://zh.odat.ch/) - Independent, minimalist presentation of Zurich's cantonal legislation (formerly ZHLAW), run by the non-profit Forma Legis; offers an [API](https://www.odat.ch/en/api-license-en.html) and CC BY-SA 4.0 licensing where rights exist. Currently in advanced beta.
 
 ## Legislative Process, Parliament & Direct Democracy
 
