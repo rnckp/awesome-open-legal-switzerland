@@ -12,6 +12,8 @@ Source collections and literature are free to consult unless stated otherwise. C
 
 Know a useful resource? [Share a link](https://github.com/rnckp/awesome-open-legal-switzerland/issues/new)—suggestions and corrections are always welcome.
 
+Related Swiss guides: [open data sources and tools](https://github.com/rnckp/awesome-ogd-switzerland) and [Apertus models, tools and projects](https://github.com/rnckp/awesome-ai-switzerland).
+
 <details markdown="1">
 <summary><strong>Table of Contents</strong></summary>
 
