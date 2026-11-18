@@ -143,11 +143,12 @@ Free official law collections for all 26 cantons, ordered by canton code:
 
 Independent aggregators provide cross-court search for cantonal decisions; official cantonal court portals are not listed individually. Publication and collection coverage vary. Follow original-source links to the publishing court where available. For downloadable corpora, see [research datasets](#research-datasets--benchmarks).
 
-- [OpenCaseLaw](https://opencaselaw.ch/) - Independent search across published federal, cantonal, and regulatory decisions, with metadata and citation links. Provides a REST API, CLI, [Parquet dataset](https://huggingface.co/datasets/voilaj/swiss-caselaw), and [hosted MCP access](https://opencaselaw.ch/mcp/) for decision retrieval, citation traversal, and legislation search without registration or an API key. Swiss corpus published under CC0; third-party materials may have separate terms. [Source code](https://github.com/jonashertner/opencaselaw) (MIT).
+- [OpenCaseLaw](https://opencaselaw.ch/) - Independent search across published Swiss court and regulatory decisions, federal and cantonal legislation, and legislative history, with citation links and [source-by-source coverage](https://opencaselaw.ch/coverage/). Offers a CLI, a [REST API](https://opencaselaw.ch/api/), a [Parquet decision dataset](https://huggingface.co/datasets/voilaj/swiss-caselaw), and [hosted MCP access](https://opencaselaw.ch/mcp/). The publisher releases the Swiss corpus under CC0. Third-party materials have separate terms. [Source code](https://github.com/jonashertner/opencaselaw) (MIT).
 - [Entscheidsuche.ch](https://entscheidsuche.ch/search?query=%2a) - Non-profit search across published federal and cantonal decisions, with an [API](https://entscheidsuche.ch/pdf/EntscheidsucheAPI.pdf), [document downloads](https://entscheidsuche.ch/docs/), and [source repositories](https://github.com/entscheidsuche). Offers [hosted MCP search and full-text retrieval](https://mcp.entscheidsuche.ch/) without an API key; [MCP-server code](https://github.com/entscheidsuche/entscheidsuche-mcp) declares MIT in its package metadata.
 
 ### Specialist Collections
 
+- [Datacant](https://datacant.unifr.ch/) - University of Fribourg collection of cantonal data-protection decisions since 1984, with researcher-written summaries and decisions or extracts where available.
 - [Federal Housing Office Tenancy-Law Decisions](https://www.bwo.admin.ch/de/mitteilungen-zum-mietrecht) - Official selection of cantonal civil-court decisions on tenancy law, published as extracts in the «Mitteilungen zum Mietrecht» and searchable through the linked decision database.
 - [Equality Law](https://www.equality-law.ch/de/) - Free nationwide database of court and conciliation cases concerning the Gender Equality Act, with commentary and procedural resources in DE/FR/IT. Unifies the former regional equality-law databases.
 - [Federal Commission against Racism Case Database](https://www.ekr.admin.ch/dienstleistungen/d518.html) - Searchable, anonymized summaries of criminal decisions concerning the anti-discrimination provisions of the Criminal Code and Military Criminal Code. Summaries are available online and as PDFs; coverage is not exhaustive.
@@ -176,13 +177,13 @@ Decisions, reports, and recommendations from public authorities and regulatory b
 
 ## Administrative Guidance & Drafting Resources
 
-Official guidance on applying or drafting legislation, distinct from the legislation itself.
+Official guidance on applying or drafting legislation, and practical research guides.
 
 - [Federal Tax Administration Publications](https://www.estv.admin.ch/de/publikationen-direkte-bundessteuer) - Circulars, notices, factsheets, rates, and administrative practice concerning direct federal tax.
 - [VAT Practice Publications (ESTV)](https://www.estv.admin.ch/de/mwst-praxispublikationen) - Official web-based guidance on Swiss VAT, including general VAT information and sector-specific practice. Links to the current practice application and the archive of practice applicable through 2009.
 - [Swiss Tax Information Dossier (ESTV)](https://www.estv.admin.ch/de/steuerinformationen) - Free PDF explanations of Swiss taxes, tax procedure, criminal tax law, and federal and cantonal rules. The publisher permits use of extracts or complete texts with attribution.
 - [Federal Social Insurance Office Execution Portal](https://sozialversicherungen.admin.ch/) - Current and historical directives, circulars, notices, and selected social-insurance case law.
-- [SEM Directives and Circulars](https://www.sem.admin.ch/sem/de/home/publiservice/weisungen-kreisschreiben.html) - Administrative guidance on migration, free movement, asylum, integration, citizenship, data protection, and visas.
+- [SEM Directives and Circulars](https://www.sem.admin.ch/de/weisungen-und-kreisschreiben) - Administrative guidance on migration, free movement, asylum, integration, citizenship, data protection, and visas.
 - [SEM Asylum and Return Manual](https://www.sem.admin.ch/sem/de/home/asyl/asylverfahren/nationale-verfahren/handbuch-asyl-rueckkehr.html) - Published internal working manual covering asylum procedure, evidence, refugee status, removal, and legal remedies.
 - [Swissmedic Journal](https://www.swissmedic.ch/swissmedic/en/home/about-us/publications/swissmedic-journal.html) - Official monthly publication on therapeutic-product regulation, requirements, risks, and authorization decisions.
 - [FINMA Circulars](https://www.finma.ch/en/documentation/circulars/) - Freely available explanations of FINMA's application of financial-market legislation, filterable by supervised institution type, with an [archive of earlier circulars](https://www.finma.ch/en/documentation/archiv/rundschreiben/).
@@ -191,6 +192,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 - [Federal Legislative Drafting Directives (GTR)](https://www.bk.admin.ch/de/gesetzestechnik) - Federal Chancellery guidance on the structure, wording, amendment, and citation of federal enactments, with downloadable directives.
 - [TRIAS Public Procurement Guide](https://www.trias.swiss/) - Joint federal, cantonal, and municipal guidance on procurement procedures, with legal references, checklists, templates, and factsheets in DE/FR/IT. Free to consult; the site requires acceptance of its terms and confirmation of location in Switzerland or Liechtenstein.
 - [TERMDAT](https://www.termdat.ch/) - Federal Administration's multilingual terminology database for legal and administrative terms.
+- [DMLawTool](https://dmlawtool.ccdigitallaw.ch/) - Free guide from USI and the University of Neuchâtel on copyright, licensing, and data protection in Swiss research data management. Browse by topic or follow the decision tree.
 
 ## Public Registers & Regulatory Disclosures
 
@@ -207,6 +209,7 @@ Official guidance on applying or drafting legislation, distinct from the legisla
 - [HUDOC](https://www.echr.coe.int/en/hudoc-database) - European Court of Human Rights case law, communicated cases, legal summaries, and Committee of Ministers execution decisions, filterable by Switzerland.
 - [UN Treaty Body JURIS Database](https://juris.ohchr.org/) - Decisions on individual human-rights complaints before eight United Nations treaty bodies, searchable by country.
 - [Court of Arbitration for Sport Jurisprudence](https://jurisprudence.tas-cas.org/) - Published sports-arbitration decisions and awards. Relevant to Swiss arbitration research through the Swiss Federal Supreme Court’s review of CAS awards; see the [CAS explanation](https://www.tas-cas.org/en/general-information/frequently-asked-questions).
+- [Choice of Law Dataverse](https://cold.global/) - University of Lucerne database of court decisions, legal instruments, and scholarship on choice of law in international contracts. Includes Swiss decisions and jurisdiction filters. Project content is [CC BY 4.0](https://cold.global/learn/technical-documentation).
 - [WTO Dispute Settlement Database](https://data.wto.org/en/dataset/disputedb) - Proceedings, documents, agreements, provisions, and statistics for WTO disputes, searchable by member including Switzerland.
 
 ## Commentary, Journals & Legal Literature
